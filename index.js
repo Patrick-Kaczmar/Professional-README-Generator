@@ -56,12 +56,22 @@ inquirer.prompt([
     fs.writeFile("README.md", `${writeToFile(response)}`, err => {
         if (err) console.error(err);
         console.log("successfuly written readme file!")
-    })
-})
+    });
+});
 
-function writeToFile(parameterValue) {
-    return parameterValue.title
-}
+const writeToFile = (response) => 
+`### ${response.title}\n
+## Description
+${response.description}\n
+## Installation
+${response.installation}\n
+## Usage
+${response.usageInformation}\n
+## Contributing
+${response.contributionGuidelines}\n
+## Tests
+${response.testInstructions}`
+
 
 // TODO: Create a function to initialize app
 function init() {}
