@@ -1,16 +1,20 @@
-### title
+# 
+
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 ## Description
-this be the descript yep
+
 
 ## Installation
-instructions unclear got stuck in toaster
+
 
 ## Usage
-use this by clicking the stuff ok
+
 
 ## Contributing
-help
+
 
 ## Tests
-test this by using the console command idiots
+
+
+## License
