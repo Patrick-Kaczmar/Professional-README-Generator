@@ -6,7 +6,7 @@ const generateMarkdown = require("./generateMarkdown")
 inquirer.prompt([
     {
         type: "input",
-        message: "What is the title of the project?",
+        message: "What is the title of the apllication?",
         name: "title",
     },
     {
@@ -16,12 +16,12 @@ inquirer.prompt([
     },
     {
         type: "input",
-        message: "please add installation instructions:",
+        message: "What are the steps required to install your aplication?",
         name: "installation",
     },
     {
         type: "input",
-        message: "please add any usage information:",
+        message: "Please provide any instructions required to use this application:",
         name: "usageInformation",
     },
     {
@@ -31,7 +31,7 @@ inquirer.prompt([
     },
     {
         type: "input",
-        message: "please add the test instructions:",
+        message: "please add test examples for your application for others to view:",
         name: "testInstructions",
     },
     {

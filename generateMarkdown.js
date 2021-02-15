@@ -420,6 +420,13 @@ const generateMarkdown = (data) =>
 ${renderLicenseBadge(data.license)}\n
 ## Description
 ${data.description}\n
+## Table of Contents
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
+* [License](#License)
+* [Questions](#Questions)\n
 ## Installation
 ${data.installation}\n
 ## Usage
@@ -429,7 +436,11 @@ ${data.contributionGuidelines}\n
 ## Tests
 ${data.testInstructions}\n
 ## License
-${data.license} - ${renderLicenseSection(data.license, data)}`
+${data.license} - ${renderLicenseSection(data.license, data)}\n
+## Questions
+${data.username}'s GitHub profile - https://github.com/${data.username}
+
+If there are any additional questions about this repository please contact me at ${data.email}`
 
 
 module.exports = generateMarkdown;
