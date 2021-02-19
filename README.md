@@ -1,29 +1,26 @@
-# Profesional README generator
+# Professional-README-Generator
+
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-An application for creating a profesional readme from a terminal using the user input
+This application's purpose is to create a profesional Readme.md file that is generated using user input from a command line interface. This will help developers save time writting their own Readme files and keep work organized in an easy-to-read format with an automatically generated table of contents like the one below.
 
 ## Table of Contents
 * [Installation](#Installation)
 * [Usage](#Usage)
-* [Contributing](#Contributing)
-* [Tests](#Tests)
+* [Demonstration](#Demonstration)
 * [License](#License)
 * [Questions](#Questions)
 
 ## Installation
-install node.js aswell as the inquirer module
+To run this application you will need to have node.js installed, aswell as copying the index.js and generateMarkdown.js files from this repository. Once you have those files in your coding software, you will need to install the "inquirer" package from https://www.npmjs.com/package/inquirer using the command "npm install inquirer" inside the terminal.
 
 ## Usage
-type "node index" into the terminal after downloading the nessesary modules
+Once you have completed the installation steps above, you can then use the inquirer package to generate a profesional Readme file. To run the application, make sure you are inside the correct terminal directory and simply type "node index" in the terminal. You should then be prompted with a list of questions that will determin the contents of your README.md file. Type in your answers and hit the enter key for each question, when choosing a license from the list of options, use the arrow keys to highlight the option you wish to chose and hit enter. Once all answers are submited a README file will be generated inside the current directory.
 
-## Contributing
-help me
+## Demonstration
 
-## Tests
-no
 
 ## License
 MIT License - Copyright 2021 Patrick-Kaczmar
