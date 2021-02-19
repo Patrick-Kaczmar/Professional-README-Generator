@@ -58,7 +58,7 @@ function init() {
     ]).then((response) => {
         console.log(response)
         // TODO: Create a function to write README file
-        fs.writeFile("README.md", `${generateMarkdown(response)}`, err => {
+        fs.writeFile("Example.md", `${generateMarkdown(response)}`, err => {
             if (err) console.error(err);
             console.log("successfuly written readme file!")
         });
