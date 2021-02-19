@@ -19,7 +19,7 @@ To run this application you will need to have node.js installed, aswell as copyi
 ## Usage
 Once you have completed the installation steps above, you can then use the inquirer package to generate a profesional Readme file. To run the application, make sure you are inside the correct terminal directory and simply type "node index" in the terminal. You should then be prompted with a list of questions that will determin the contents of your README.md file. Type in your answers and hit the enter key for each question, when choosing a license from the list of options, use the arrow keys to highlight the option you wish to chose and hit enter. Once all answers are submited a README file will be generated inside the current directory.
 
-### A list of all license badges used can be found here - https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba#bsd-3-clause-license
+### A list of all license badges used can be found here - https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 
 ### Documentation on license information can be found at - https://opensource.org/licenses
 
